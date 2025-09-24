@@ -65,7 +65,7 @@ namespace PiedraPapelOTijeras.InterfazUsuario
             return _servicioJuego.IniciarNuevaPartida(nombreJugador1, nombreJugador2, puntajeParaGanar);
         }
 
-        private string SolicitarNombreJugador(string mensaje)
+        public string SolicitarNombreJugador(string mensaje)
         {
             string nombre;
             do

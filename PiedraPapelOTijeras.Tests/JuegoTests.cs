@@ -13,5 +13,6 @@ namespace PiedraPapelOTijeras.Tests
             _jugador2 = new Jugador("Luis");
         }
 
+
     }
 }
